@@ -1,0 +1,17 @@
+name: RealisticHighlands2
+version: 1.0
+main: com.realistichighlands2.RealisticHighlands2
+api-version: 1.21
+author: YourName
+description: Transforms world generation into beautiful, realistic landscapes with huge mountains, deep valleys, rivers, and natural lakes.
+
+commands:
+  realistichighlands:
+    description: Main command for RealisticHighlands2 plugin.
+    permission: realistichighlands.admin
+    usage: /realistichighlands
+
+permissions:
+  realistichighlands.admin:
+    description: Permission for realistichighlands command
+    default: op
